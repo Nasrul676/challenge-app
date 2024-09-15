@@ -7,10 +7,7 @@ const APP_DEFAULT_TITLE = "Challenge App";
 const APP_TITLE_TEMPLATE = "%s - Challenge App";
 const APP_DESCRIPTION = "untuk seru-seruan aja!";
 
-export const itim = Itim({
-  weight: ["400"],
-  subsets: ["latin"],
-});
+const itim = Itim({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
